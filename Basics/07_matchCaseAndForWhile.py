@@ -38,19 +38,33 @@
 
 
 i =0
-while i <= 3:
-    # print(i)
-    i= i+1
-i = int(input("Enter the number: "))
-print(i)
-while(i<=38):
-  i = int(input("Enter the number: "))
-  print(i)
+# while i <= 3:
+#     # print(i)
+#     i= i+1
+# # i = int(input("Enter the number: "))
+# print(i)
+# while(i<=38):
+#   i = int(input("Enter the number: "))
+#   print(i)
 
-print("Done with the loop")
+# print("Done with the loop")
 
-count=5
-while(count>0):
-   print(count)
-   count=count-1
+# count=5
+# while(count>0):
+#    print(count)
+#    count=count-1
 
+
+for i in range(5):
+   print(i)
+   if i==4:
+      break
+else:
+   print("empty i")
+
+i=0
+while i< 7:
+   print(i)
+   i= i+1
+else:
+   print("out of loop")
