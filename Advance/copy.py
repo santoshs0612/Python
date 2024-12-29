@@ -6,4 +6,12 @@ import shutil
 
 # Folder Copy 
 
-shutil.copytree("Advance","CopyAdv")
+# shutil.copytree("Advance","CopyAdv")
+
+# shutil.move("Advance/copy.py", "copy.py")
+
+# Dedlete the folder dir
+# shutil.rmtree("myTutorials");
+import os
+# os.remove("file.file")
+
